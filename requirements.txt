@@ -1,0 +1,17 @@
+pandas==1.3.5
+numpy==1.21.4
+scikit-learn==1.0.1
+streamlit==1.2.0
+
+This should cover the primary packages you need for data handling, machine learning, and the Streamlit web application. Here's a brief explanation of each package:
+
+pandas: For data manipulation and preprocessing.
+numpy: For numerical operations.
+scikit-learn: For building and training the machine learning model.
+streamlit: For creating the interactive web application.
+To create the requirements.txt file, place the above content into the file. You can do this manually or generate it using pip freeze to capture the exact versions currently installed in your environment.
+
+Generating requirements.txt using pip
+If you want to ensure you capture all the exact versions you have installed in your environment, you can generate the requirements.txt file using the following command:pip freeze > requirements.txt
+
+This command will list all the packages installed in your current environment with their exact versions.
